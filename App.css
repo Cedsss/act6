@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 5%;
+  border-radius: none;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 10px;
+  border-radius: 5px; /* Rounded corners for input */
+  border: none; /* Optional: cleaner input style */
+}
+
+.buttons {
+  margin: 10px 0;
+  display: flex;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: white; /* Default background color */
+  border: none; /* Optional: cleaner button style */
+  border-radius: 5px; /* Rounded corners for buttons */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+button:hover {
+  background-color: lightyellow; /* Light yellow hover effect */
+}
+
+.stack-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  width: 200px;
+  border: 1px solid #ffff;
+  padding: 0;
+}
+
+.stack-item {
+  border: 1px solid #ffff;
+  height: 45px;
+  width: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
